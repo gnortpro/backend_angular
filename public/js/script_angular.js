@@ -88,7 +88,7 @@
         $mdToast.simple()
         .textContent('Update Successfully!')
         .position(pinTo)
-        .hideDelay(3000));
+        .hideDelay(2000));
     };
 
  })
