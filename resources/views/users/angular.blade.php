@@ -2,7 +2,6 @@
 
 @section('content')
 
-	<div ng-app="userApp" ng-controller="getUserListController">
 		<div ng-repeat="motnguoi in nhieunguoi" ng-init="motnguoi.hienra = true">
 			<div class="container">
 				<div class="card mb-20" ng-show="motnguoi.hienra" >
@@ -25,6 +24,6 @@
 
 			</div>
 		</div>
-	</div>
+
 
 @endsection

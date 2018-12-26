@@ -21,14 +21,14 @@
     <link rel="stylesheet" href="{{asset('/css/libs/angular-material.min.css')}}">
 
 </head>
-<body>
-      @include('layouts.header')
+<body ng-app="userApp" ng-controller="getUserListController">
+        @include('layouts.header')
 
-         @yield('content')
+        @yield('content')
 
 
 
-     @include('layouts.footer')
+        @include('layouts.footer')
 
 <script type="text/javascript" src="{{asset('/js/jquery.min.js')}}"></script>  
 <script type="text/javascript" src="{{asset('/js/bootstrap.min.js')}}"></script>  
