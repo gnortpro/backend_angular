@@ -161,3 +161,20 @@
 		</footer>
 		<!-- Footer -->
 	</div>
+
+<script type="text/javascript" src="{{asset('/js/jquery.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/bootstrap.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-1.5.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-route.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-animate.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-aria.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-messages.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/angular-material.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/script_angular.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/mdb.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/owl.carousel.min.js')}}"></script>  
+<script type="text/javascript" src="{{asset('/js/popper.min.js')}}"></script>  
+
+</body>
+
+</html>
